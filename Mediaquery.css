@@ -176,14 +176,14 @@
     position: absolute;
     top: 100%;
 }
-.healthcare:hover{
+/* .healthcare:hover{
 .healthopt{
     display: block;
     border: 1px solid black;
     
 }
 
-}
+} */
 .labtest {
 
     width: 100px;
