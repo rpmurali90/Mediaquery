@@ -9,19 +9,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
 
 #navbarchild {
-    width: 95%;
-    /* height: 40px; */
-    /* background-color: bisque; */
+    width: 100%;
+    height: 60px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
     /* padding: 10px; */
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid black;
+    z-index: 1000;
+    
 }
 
 #leftnavbar {
@@ -81,10 +87,15 @@
         height: 15px;
     }
 }
+#bardiv{
+    display: none;
+}
 #bar{
     width: 50px;
     height: 40px;
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .barlist{
@@ -128,14 +139,18 @@
 #seconddiv {
 
     width: 100%;
-    /* height: 50px; */
+    height: 50px;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* background-color: black; */
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 60px;
+    border-bottom: 1px solid black;
+    
 
 }
 
@@ -237,6 +252,7 @@
     padding: 0px;
     box-sizing: border-box;
     background-color: #092635;
+    margin-top: 110px;
 }
 
 #getmedicines {
@@ -308,7 +324,7 @@
 
 #threebox {
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -593,6 +609,9 @@ input{
     border-radius: 10px;
     /* background: linear-gradient(#1043 yellow); */
     /* box-shadow: #2c789e; */
+    /* filter: blur(1px); */
+-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
 }
 .whatsapp1{
     width: 50px;
@@ -622,6 +641,8 @@ input{
     border-radius: 10px;
     /* background: linear-gradient(#1043 yellow); */
     /* box-shadow: #2c789e; */
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);   
 }
 .scan1{
     width: 50px;
@@ -650,6 +671,8 @@ input{
     border-radius: 10px;
     /* background: linear-gradient(#1043 yellow); */
     /* box-shadow: #2c789e; */
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
 }
 .call1{
     width: 50px;
@@ -670,7 +693,7 @@ input{
 #offerbox{
     width: 750px;
     /* height: 150px; */
-    background-color: bisque;
+    /* background-color: bisque; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -686,22 +709,367 @@ input{
     align-items: center;
     justify-content: center;
 
+    
 }
 .leftupper{
-    width: 250px;
+    width: 300px;
     height: 80px;
-    background-color: brown;
-
+    /* background-color: brown; */
+    border: 1px solid black;
+    border-color: #1c82b5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    -webkit-box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.91); 
+box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.91);
+padding-bottom: 10px;
 }
 .bgsymbol{
     width: 50px;
     height: 50px;
-    background-color: rgb(42, 44, 165);
+    /* background-color: rgb(42, 44, 165); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0.5;
+}
+.apponlyoffer{
 
+    width: 200px;
+    color: blue;
+}
+
+.medhealth{
+    color: grey;
 }
 
 
+.horibox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    padding-left: 5px;
+}
 
+.leftlower{
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5px;
+}
+.inscol{
+    background-color: #6ab7de;
+    /* border: 0.5px solid black; */
+    border-radius: 5px;
+}
+
+#rightoffer{
+    width: 350px;
+    /* height: 130px; */
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.rightupper{
+    width: 300px;
+    height: 80px;
+    /* background-color: brown; */
+    border: 1px solid black;
+    border-color: pink;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    -webkit-box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.91); 
+box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.91);
+padding-bottom: 10px;
+
+}
+.bgsymbol1{
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(42, 44, 165); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    opacity: 0.5;
+}
+.apponlyoffer1{
+
+    width: 200px;
+    color: blue;
+}
+
+.medhealth1{
+    color: grey;
+}
+
+
+.horibox1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    padding-left: 5px;
+}
+
+.rightlower{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: small;
+    padding-left: 5px;
+    /* margin-bottom: 15px; */
+}
+.codecol{
+    background-color: pink;
+    /* border: 0.5px solid black; */
+    border-radius: 5px;
+}
+
+
+#alsocheck{
+     width: 100%;
+    /* height: 30px; */
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.alsocheckout{
+    width: 250px;
+    height: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    /* color: rgba(255, 255, 255, 0.781); */
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy1get1{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.buy1get1img{
+    width: 650px;
+    /* height: 100px; */
+    background-color: burlywood;
+    img{
+width: 100%;
+height: 100%;
+    }
+}
+#customers{
+    width: 80%;
+    /* height: 40x; */
+    /* background-color: green; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.piccustom{
+    width: 600px;
+    height: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.huswife{
+    width: 100px;
+    height: 30px;
+      img{
+width: 100%;
+height: 100%;
+    }
+}
+#grid{
+    width: 100%;
+    /* height: 200px; */
+    /* background-color: orange; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.gridcon{
+    width: 80%;
+    /* height: 200px; */
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,200px);
+    /* grid-template-columns: 50px,200px,200px,200px; */
+    justify-content: space-around;
+    justify-items: center;
+}
+.quote{
+    width: 50px;
+
+
+}
+.amit{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: darkgrey;
+-webkit-box-shadow: 5px 5px 35px 2px rgba(0,0,0,0.2); 
+box-shadow: 5px 5px 35px 2px rgba(0,0,0,0.2);
+}
+.rajdeep{
+    width: 200px;
+    border: 1px solid black;
+     border-radius: 10px;
+     padding-left: 10px;
+     border-color: darkgrey;
+ -webkit-box-shadow: 5px 5px 35px 2px rgba(0,0,0,0.2); 
+box-shadow: 5px 5px 35px 2px rgba(0,0,0,0.2);
+}
+.alina{
+    width: 200px;
+    border: 1px solid black;
+     border-radius: 10px;
+     padding-left: 10px;
+     border-color: darkgrey;
+ -webkit-box-shadow: 5px 5px 35px 2px rgba(0,0,0,0.2); 
+box-shadow: 5px 5px 35px 2px rgba(0,0,0,0.2);
+}
+.rajesh{
+    width: 200px;
+    border: 1px solid black;
+     border-radius: 10px;
+     padding-left: 10px;
+     border-color: darkgrey;
+-webkit-box-shadow: 5px 5px 35px 2px rgba(0,0,0,0.2); 
+box-shadow: 5px 5px 35px 2px rgba(0,0,0,0.2);
+}
+#firstbox{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.firstboxchild{
+    width: 80%;
+    /* height: 100px; */
+    /* background-color: red; */
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: darkgrey;
+    filter: blur(0.3);
+}
+.subhead1{
+padding-left: 10px;
+padding-top: 10px;
+}
+
+#footer{
+    width: 100%;
+    height: 500px;
+    /* background-color: yellow; */
+    margin-top: 30px;
+
+}
+#footerchild{
+    width: 100%;
+    height: 500px;
+    background-color:#c7deed;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    /* grid-template-areas:
+    "com fea need follow"; */
+    
+}
+.company {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    /* grid-area: com; */
+}
+.featured {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    grid-row: span 2;
+    /* grid-area: fea; */
+}
+.needhelp {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    /* grid-area: need; */
+}
+.followus {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    /* grid-area: follow; */
+}
+.ourservice {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    /* grid-area: our; */
+}
+.feature2 {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+.policy {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    /* grid-column: span 2; */
+    /* grid-area: pol; */
+}
+
+#footlast{
+    width: 100%;
+    /* height: 70px; */
+    background-color: #c7deed;
+    
+}
+.footlastchild{
+    width: 300px;
+    height: 30px;
+font-family: sans-serif;
+}
+.allimages{
+    width: 50%;
+    height: 20px;
+    /* background-color: orange; */
+    display: flex;
+img{
+    width: 100%;
+    height: 100%;
+}
+}
 
 
 
@@ -719,15 +1087,50 @@ input{
 
 
 /* @media query-- */
+@media (max-width:1400px) {
+.gridcon {
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
+}
+.quote{
+    display: none;
+}
+}
 
-/* @media (max-width:1110px) {
+@media (max-width:1150px) {
     #seconddivchild {
         justify-content: center;
 
     }
-} */
+    #pharmacy {
+ 
+    margin-bottom: 20px;
+}
+#avail{
+    margin-top: 40px;
+}
+#multiplechild {
+    height: 300px;
+}
+#alsocheck {
+    margin-top: 40px;
 
-@media (max-width:870px) {
+}
+
+.followus{
+    display: none;
+}
+
+#footerchild {
+    grid-template-columns: repeat(3, 200px);
+
+}
+
+}
+
+
+
+@media (max-width:850px) {
     #navbarchild {
         justify-content: center;
     }
@@ -764,18 +1167,132 @@ input{
 #seconddiv{
     display: none;
 }
-#bar{
+#cssbox {
+margin-top: 120px;
+}
+#bardiv{
     display: block;
+    
+}
+#bar{
+    position: fixed;
+    top: 100px;
+    background-color: white;
+    
 }
 #bar:hover{
     .barlist{
         display: block;
     }
 }
+
+#multiplechild {
+    width: 500px;
+    
+}
+.multiplesearch {
+    width: 400px;
+}
+.button {
+    width: 70px;
+    height: 20px;
+}
+.iconandsearch {
+    width: 300px;
+}
+#threebox2 {
+    width: 400px;
+}
+
+.whatsapp {
+    width: 150px;
+    font-size: small;
+    text-align: center;
+}
+.whatsapp1 {
+display: none;
+}
+.scan {
+    width: 100px;
+    font-size: small;
+    text-align: center;
+}
+.scan1 {
+display: none;
+}
+.call {
+    width: 100px;
+    font-size: small;
+    text-align: center;
+}
+.call1 {
+display: none;
+}
+#offerbox {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+#leftoffer {
+    width: 150px;
+}
+.horibox {
+   width: 150px;
+    font-size: x-small;
+}
+.leftlower {
+    width: 100px;
+    font-size: smaller;
+}
+.apponlyoffer {
+    width: 100px;
+}
+
+#rightoffer {
+    width: 150px;
+}
+.horibox1 {
+   width: 150px;
+    font-size: x-small;
+}
+.rightlower {
+    width: 100px;
+    font-size: smaller;
+}
+.apponlyoffer1 {
+    width: 100px;
+}
+.getmedicineschild {
+    width: 250px;
+    font-size: small;
+}
+.getmedicineschild2 {
+    width: 300px;
+    font-size: x-small;
+}
+#threeboxchild {
+    width: 300px;
+    margin-top: auto;
+}
+
+#multiplechild {
+    height: 300px;
+}
+#footerchild{
+    grid-template-columns: repeat(2,200px);
+}
+.featured {
+    /* width: 150px; */
+   display: none;
 }
 
 
-/* @media (max-width:440px) {
+
+
+}
+
+
+@media (max-width:530px) {
     #leftnavbar {
         display: flex;
         align-items: center;
@@ -800,5 +1317,97 @@ input{
 
         font-size: medium;
     }
+.getmedicineschild {
+    width: 150px;
+    font-size: small;
+    font-size: x-small;
+}
+.getmedicineschild2 {
+    width: 150px;
+    font-size: xx-small;
+    text-align: center;
+}
 
-} */
+    #multiplechild {
+        width: 300px;
+        /* height: 200px; */
+        justify-content: center;
+        
+    }
+
+    .multiplesearch {
+    width: 250px;
+    height: 30px;
+}
+.iconandsearch{
+    display: none;
+}
+.button {
+    width: 40px;
+    height: 10px;
+    font-size: xx-small;
+}
+.iconandsearch {
+    width: 150px;
+    margin-top: 20px;
+}
+#threebox2 {
+    width: 250px;
+    height: 150px;
+    flex-direction: column;
+   
+
+}
+
+.whatsapp {
+    width: 100px;
+    font-size: small;
+    text-align: center;
+}
+.whatsapp1 {
+display: none;
+}
+.whatsapp2 {
+width: 100px;
+}
+.scan {
+    width: 50px;
+    font-size: small;
+    text-align: center;
+}
+.scan1 {
+display: none;
+}
+.call {
+    width: 50px;
+    font-size: small;
+    text-align: center;
+}
+.call1 {
+display: none;
+}
+#offerbox {
+    display: none;
+}
+.gridcon {
+        grid-template-columns: repeat(1, 300px);
+
+}
+#footerchild {
+        grid-template-columns: repeat(1, 200px);
+
+}
+.needhelp{
+    display: none;
+}
+.ourservice{
+    display: none;
+}
+
+
+}
+@media (max-width:330px) {
+#threeboxchild {
+        width: 250px;
+}
+}
